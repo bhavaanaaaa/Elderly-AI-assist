@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 35
+names: ['bag', 'book', 'bottle', 'chair', 'chair - wheel', 'container', 'container -bottle', 'container -bottle - box', 'container -bottle - bresh', 'container -bottle - jar', 'container -bottle - packet', 'container -bottle- tool', 'container -lemon', 'container bottle', 'container- bottle - jar', 'container- lemon - packet', 'food', 'glue', 'headphones', 'lemon - glouse', 'packet', 'packet - box', 'packet - bresh', 'packet- bottle', 'paper - tape', 'paper bag', 'plastic- tool', 'remote', 'scissors', 'screw', 'tool', 'tool- glouse', 'vaccum- bag', 'wheel', 'wire']
+
+roboflow:
+  workspace: bhavana-y
+  project: obstacle-detection-ue7c3
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bhavana-y/obstacle-detection-ue7c3/dataset/2

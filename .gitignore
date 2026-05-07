@@ -1,0 +1,29 @@
+# Virtual environment
+obstacle_env/
+env/
+venv/
+
+# Logs
+*.log
+detection_log.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Temporary files
+temp_stream.mp4
+*.tmp
