@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #04080f;
+  --s1: #080e1a;
+  --s2: #0c1424;
+  --b1: #112030;
+  --b2: #1a3050;
+  --cyan: #00e5ff;
+  --green: #00ff9d;
+  --orange: #ff7b00;
+  --red: #ff2d55;
+  --yellow: #ffd600;
+  --purple: #bf5fff;
+}
+
+body {
+  background: var(--bg);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--b1) 1px, transparent 1px),
+    linear-gradient(90deg, var(--b1) 1px, transparent 1px);
+  background-size: 40px 40px;
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: -1;
+}
